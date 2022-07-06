@@ -1,0 +1,13 @@
+server:
+  port: 8888
+
+spring:
+  application:
+    name: config-server
+  cloud:
+    config:
+      server:
+        git:
+          uri: https://github.com/hoty836/configrepo
+          username: hoty836
+          password: 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
