@@ -10,4 +10,6 @@ spring:
         git:
           uri: https://github.com/hoty836/configrepo
           username: hoty836
-          password: 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
+          password: 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
+          force-pull: true
+          timeout: 30
